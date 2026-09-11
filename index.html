@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Happy Birthday Tuba 🎂</title>
+<meta name="theme-color" content="#ff8fb3">
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-height:100vh;font-family:Georgia,"Times New Roman",serif;color:#642c49;background:radial-gradient(circle at 15% 10%,#ffd5e4 0,transparent 25%),radial-gradient(circle at 88% 20%,#f3dcff 0,transparent 24%),linear-gradient(135deg,#fff9fc,#ffeef5 48%,#fffaff);overflow-x:hidden}
+#countdown{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px}.countCard,.introCard,.card{background:rgba(255,255,255,.67);border:1px solid rgba(255,255,255,.9);box-shadow:0 24px 70px rgba(106,43,75,.18);backdrop-filter:blur(16px)}
+.countCard{width:min(650px,100%);padding:40px 25px;border-radius:32px}.kicker,.label{font:700 .75rem/1 Arial,sans-serif;letter-spacing:4px;text-transform:uppercase;opacity:.58}.number{font:900 clamp(6rem,22vw,11rem)/.9 Arial,sans-serif;background:linear-gradient(135deg,#ff6595,#a73569);-webkit-background-clip:text;background-clip:text;color:transparent;animation:pulse .9s ease-in-out infinite}.wait{margin-top:15px;font:500 .9rem/1.6 Arial,sans-serif;opacity:.58}@keyframes pulse{50%{transform:scale(1.08)}}
+#intro{min-height:100vh;display:none;place-items:center;padding:25px}.introCard{width:min(760px,100%);text-align:center;padding:45px 28px;border-radius:34px}.decor{font-size:2rem}.introCard h1{margin:15px 0 10px;font-size:clamp(2.5rem,8vw,5rem);line-height:1;color:#8f3560}.introCard p{max-width:620px;margin:0 auto 28px;font:500 1rem/1.8 Arial,sans-serif;color:#75405a}.open{border:0;padding:17px 30px;border-radius:999px;color:#fff;background:linear-gradient(135deg,#ff6b9b,#cb3e72);box-shadow:0 14px 32px rgba(203,62,114,.3);cursor:pointer;font:800 .98rem/1 Arial,sans-serif;transition:.2s}.open:hover{transform:translateY(-3px)}
+#main{display:none;padding:24px 16px 70px}.container{width:min(980px,100%);margin:auto}.hero{text-align:center;padding:22px 10px 18px}.hero h2{margin:13px 0 10px;font-size:clamp(2.5rem,8vw,5.2rem);line-height:.98}.hero h2 span{color:#d73e77}.hero p{max-width:730px;margin:auto;font:500 1rem/1.8 Arial,sans-serif;color:#714059}.music{display:inline-block;margin-top:16px;padding:9px 15px;border-radius:999px;background:rgba(255,255,255,.7);font:700 .76rem/1 Arial,sans-serif}
+.card{margin-top:25px;overflow:hidden;border-radius:34px}.photo{padding:16px}.frame{position:relative;overflow:hidden;border-radius:27px;background:#f9d7e5}.frame img{display:block;width:100%;height:auto;max-height:780px;object-fit:cover}.caption{position:absolute;left:18px;right:18px;bottom:18px;padding:12px 15px;border-radius:18px;background:rgba(255,255,255,.78);backdrop-filter:blur(10px);text-align:center;font:700 .78rem/1.5 Arial,sans-serif}.content{padding:5px 28px 34px;text-align:center}.content h3{margin:8px 0 12px;font-size:clamp(2rem,6vw,3rem)}.line{width:120px;height:2px;margin:18px auto 23px;background:linear-gradient(90deg,transparent,#ff6f9f,transparent)}.content p{max-width:790px;margin:15px auto;font-size:1.05rem;line-height:1.9}.dua{max-width:790px;margin:25px auto;padding:20px;border-radius:22px;background:rgba(255,247,250,.85);font-style:italic;line-height:1.9}.signature{padding:46px 10px 6px;text-align:center}.signature h4{margin:11px 0 0;font-size:clamp(2.2rem,7vw,4.6rem);color:#b43768}.footer{text-align:center;margin-top:15px;font:500 .72rem/1.5 Arial,sans-serif;opacity:.42}.hidden{display:none!important}.fade{animation:fade 1s ease both}@keyframes fade{from{opacity:0;transform:translateY(25px)}to{opacity:1;transform:none}}
+.float{position:fixed;top:100vh;z-index:50;pointer-events:none;animation:rise linear forwards}@keyframes rise{to{transform:translateY(-115vh) rotate(25deg);opacity:0}}.petal{position:fixed;top:-30px;z-index:40;pointer-events:none;animation:fall linear forwards}@keyframes fall{to{transform:translateY(115vh) rotate(540deg);opacity:0}}
+@media(max-width:600px){.introCard{padding:35px 20px}.content{padding-left:20px;padding-right:20px}.content p{font-size:1rem;line-height:1.82}.caption{left:10px;right:10px;bottom:10px}}
+</style>
+</head>
+<body>
+<section id="countdown"><div class="countCard"><div class="kicker">A little surprise for Tuba</div><div id="number" class="number">3</div><div class="wait">Get ready… something pretty is waiting ✨</div></div></section>
+
+<section id="intro"><div class="introCard fade"><div class="decor">🌸 ✨ 💗 ✨ 🌸</div><h1>Happy Birthday, Tuba! 🎂</h1><p>A normal birthday wish felt a little too ordinary for today… so I made you a tiny surprise. Now the only thing left is to press the button. 💌</p><button id="openButton" class="open">Open This Surprise 💗</button></div></section>
+
+<main id="main"><div class="container">
+<header class="hero"><div class="kicker">Today is all about you</div><h2>Happy Birthday, <span>Tuba</span> 🌷</h2><p>May your birthday be filled with the kind of happiness that stays long after the candles are gone. And yes… today you get extra compliments, birthday rules. 😄💗</p><div class="music">🎵 Your birthday song is playing</div></header>
+
+<section class="card"><div class="photo"><div class="frame"><img src="assets/tuba.jpg" alt="Tuba"><div class="caption">A little birthday moment for a lovely friend 🌸</div></div></div>
+<div class="content"><h3>A Wish, Just For You 💕</h3><div class="line"></div>
+<p><b>Tuba, Happy Birthday! 🎂✨</b><br>May this new chapter of your life bring you endless smiles, peaceful days, beautiful memories and success in everything you genuinely wish for.</p>
+<p>Tumhari smile mein waise hi ek cute si brightness hai jo normal si picture ko bhi special bana deti hai. Aur honestly, aaj birthday hai is liye tareef thori extra banti hai… <b>you really do look adorable. 🙈🌷</b></p>
+<p>Allah tumhari zindagi ko khushiyon, sukoon, barkat aur kamyabi se bhar de. Jo achi wishes tumhare dil mein hain, Allah unhein tumhare liye behtareen waqt par poora kare aur tumhare har naye saal ko pichle saal se zyada khoobsurat banaye.</p>
+<div class="dua">🤍 <b>Dua:</b> Allah tumhein hamesha khush rakhe, tumhare liye aasaniyan paida kare, tumhein har buri cheez se mehfooz rakhe, tumhari padhai/career aur future mein kamyabi de, aur tumhari zindagi mein sukoon aur achay log hamesha qaim rakhe. <b>Ameen. ✨</b></div>
+<p>And birthday girl ke liye ek tiny warning: <b>aaj itni cute smile mat dena ke log birthday bhool kar sirf tumhari tareef karte reh jaen. 😭😂💗</b></p>
+<p>Stay the same kind, sweet and lovely person you are. Keep smiling, keep dreaming big, and keep making beautiful memories. I hope when you look back at this birthday, you remember it with a genuinely happy heart. 🌸</p>
+<div class="line"></div><p><b>Once again… Happy Birthday, Tuba! 🎀🎂</b><br>May your whole year be full of little moments that make you smile for no reason. 💗✨</p>
+</div></section>
+<div class="signature"><div class="label">With warmest birthday wishes</div><h4>Your Friend Irfan Joiya</h4></div>
+<div class="footer">Made with flowers, hearts & a little birthday magic 🌸💗</div>
+</div></main>
+
+<audio id="song" preload="auto"><source src="assets/birthday-song.mp3" type="audio/mpeg"></audio>
+<script>
+const countdown=document.getElementById("countdown"), number=document.getElementById("number"), intro=document.getElementById("intro"), main=document.getElementById("main"), btn=document.getElementById("openButton"), song=document.getElementById("song");
+let n=3;
+const timer=setInterval(()=>{n--;if(n>0){number.textContent=n}else{clearInterval(timer);countdown.style.transition="opacity .7s";countdown.style.opacity="0";setTimeout(()=>{countdown.classList.add("hidden");intro.style.display="grid"},700)}},900);
+
+function hearts(){const a=["❤️","💗","💕","💖","🌸","🌷","✨"];for(let i=0;i<36;i++){let e=document.createElement("div");e.className="float";e.textContent=a[Math.floor(Math.random()*a.length)];e.style.left=Math.random()*100+"vw";e.style.fontSize=(14+Math.random()*22)+"px";e.style.animationDuration=(4+Math.random()*5)+"s";document.body.appendChild(e);setTimeout(()=>e.remove(),9500)}}
+function petals(){const a=["🌸","🌷","🌺","✨"];setInterval(()=>{let e=document.createElement("div");e.className="petal";e.textContent=a[Math.floor(Math.random()*a.length)];e.style.left=Math.random()*100+"vw";e.style.fontSize=(12+Math.random()*16)+"px";e.style.animationDuration=(5+Math.random()*5)+"s";document.body.appendChild(e);setTimeout(()=>e.remove(),11000)},650)}
+btn.addEventListener("click",async()=>{try{song.volume=.72;await song.play()}catch(e){console.log(e)}intro.classList.add("hidden");main.style.display="block";main.classList.add("fade");hearts();petals();window.scrollTo(0,0)});
+</script>
+</body>
+</html>
